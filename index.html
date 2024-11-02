@@ -3,75 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agencia Digital | Creamos Tu Presencia Online</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Mi Tienda Épica</title>
+    <style>
+        /* Estilos épicos */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #1a1a1a, #2c2c2c);
+            color: white;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e') center/cover;
+        }
+
+        .hero-content {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #ff3366, #ff6b6b);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-5px);
+        }
+    </style>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav-container">
-            <div class="logo">
-                <a href="index.html">AgenciaDigital</a>
-            </div>
-            <div class="menu-toggle" id="mobile-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Transformamos Ideas en Experiencias Digitales</h1>
-                <p>Diseño web • Marketing Digital • Desarrollo de Apps</p>
-                <a href="contacto.html" class="cta-button">Comienza Tu Proyecto</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>AgenciaDigital</h4>
-                <p>Transformando el mundo digital</p>
-            </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Mi Tienda Épica</h1>
+            <p>Bienvenido a la experiencia de compra más increíble</p>
+            <button class="btn">Explorar Ahora</button>
         </div>
-    </footer>
-
-    <script src="js/main.js"></script>
+    </div>
 </body>
 </html>
-
-<header class="header">
-    <nav class="nav-container">
-        <div class="logo">
-            <a href="index.html">ShopMendoza</a>
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="categorias.html">Categorías</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
-
-<main>
-    <section class="hero">
-        <div class="hero-content">
-            <h1>ShopMendoza</h1>
-            <p>Tu mejor experiencia de compra online en Mendoza</p>
-            <a href="productos.html" class="cta-button">Ver Productos</a>
-        </div>
-    </section>
-</main>
